@@ -1,0 +1,32 @@
+{
+  "name": "hangus-api",
+  "version": "1.0.0",
+  "description": "A Functional Node Api",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pereiraJr/hangus-api.git"
+  },
+  "author": "pereiraJr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pereiraJr/hangus-api/issues"
+  },
+  "homepage": "https://github.com/pereiraJr/hangus-api#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
